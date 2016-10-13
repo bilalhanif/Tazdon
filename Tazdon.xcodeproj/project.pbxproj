@@ -97,12 +97,10 @@
 		F42305BC1DAC031C00A20303 /* Tazdon */ = {
 			isa = PBXGroup;
 			children = (
-				F42305BD1DAC031C00A20303 /* AppDelegate.swift */,
-				F42305BF1DAC031C00A20303 /* ViewController.swift */,
-				F42305C11DAC031C00A20303 /* Main.storyboard */,
-				F42305C41DAC031C00A20303 /* Assets.xcassets */,
-				F42305C61DAC031C00A20303 /* LaunchScreen.storyboard */,
-				F42305C91DAC031C00A20303 /* Info.plist */,
+				F42305F01DAFCEBC00A20303 /* Supporting Files */,
+				F42305EF1DAFCEB500A20303 /* Model */,
+				F42305F21DAFCED000A20303 /* View */,
+				F42305F11DAFCEC600A20303 /* Controller */,
 			);
 			path = Tazdon;
 			sourceTree = "<group>";
@@ -123,6 +121,40 @@
 				F42305DF1DAC031C00A20303 /* Info.plist */,
 			);
 			path = TazdonUITests;
+			sourceTree = "<group>";
+		};
+		F42305EF1DAFCEB500A20303 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F42305F01DAFCEBC00A20303 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F42305C91DAC031C00A20303 /* Info.plist */,
+				F42305C41DAC031C00A20303 /* Assets.xcassets */,
+				F42305BD1DAC031C00A20303 /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F42305F11DAFCEC600A20303 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F42305BF1DAC031C00A20303 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F42305F21DAFCED000A20303 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F42305C61DAC031C00A20303 /* LaunchScreen.storyboard */,
+				F42305C11DAC031C00A20303 /* Main.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
